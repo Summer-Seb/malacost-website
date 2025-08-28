@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="description" content="Malacost Laundry — pickup & delivery. Wash & Fold, Dry Cleaning, Ironing, Express."/>
+  <title>Malacost</title>
+ <link rel="icon" href="assets/img/logo-light.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="assets/css/styles.css"/>
+</head>
+<body>
+<header class="header" role="banner">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/img/logo-light.jpeg" alt="Malacost logo"/>
+      <span class="word">Malacost</span>
+    </a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="content">
+  <!-- HERO -->
+  <section class="hero">
+  <div class="container hero-head">
+    <img class="logo-hero" src="assets/img/logo-light.jpeg" alt="Malacost logo large"/>
+
+    <div class="hero-copy">
+      <h1>Laundry made effortless — pickup to perfectly folded.</h1>
+      <p class="lead">Doorstep pickup, gentle fabric care, and on-time delivery. Spend time on life, not laundry.</p>
+      <div class="cta">
+        <a class="btn" href="services.html">See services & pricing</a>
+        <a class="btn ghost" href="#book">Book pickup</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- WHY / VALUE (boxes) -->
+  <section class="section alt">
+    <div class="container grid cards3">
+      <article class="card">
+        <h3>Doorstep convenience</h3>
+        <p>Pickup & delivery 7 days a week. Book a slot that suits your day.</p>
+      </article>
+      <article class="card">
+        <h3>Care that protects</h3>
+        <p>Color-separated wash, fabric-matched cycles, controlled drying & careful folding.</p>
+      </article>
+      <article class="card">
+        <h3>Clear pricing</h3>
+        <p>No hidden fees. Per-kg and per-item rates, with optional express add-on.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- FEATURE ROW 1 (image + text) -->
+  <section class="section">
+    <div class="container feature">
+      <div class="imgbox media"><img src="assets/img/pickup.jpg" alt="Courier collecting laundry bag"/></div>
+      <div class="text">
+        <h2>Pickup & delivery that fits your schedule</h2>
+        <p class="lead">Choose morning, afternoon, or evening. Contactless on request.</p>
+        <ul>
+          <li>Morning 08:00–11:00</li>
+          <li>Afternoon 12:00–15:00</li>
+          <li>Evening 17:00–20:00</li>
+        </ul>
+        <div style="margin-top:10px;"><a class="btn" href="#book">Book a pickup</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE ROW 2 (text + image) -->
+  <section class="section alt">
+    <div class="container feature">
+      <div class="text">
+        <h2>Reliable quality, every load</h2>
+        <p class="lead">We standardize each step so clothes come back fresh and ready.</p>
+        <ul>
+          <li>Delicates & hand-wash options</li>
+          <li>Temperature-controlled drying</li>
+          <li>Quality checks before delivery</li>
+        </ul>
+        <div style="margin-top:10px;"><a class="btn ghost" href="services.html">Explore services</a></div>
+      </div>
+      <div class="imgbox media"><img src="assets/img/care.jpg" alt="Laundry sorting and gentle washing"/></div>
+    </div>
+  </section>
+
+  <!-- BUNDLES (boxes) -->
+  <section class="section">
+    <div class="container grid cards3">
+      <article class="card">
+        <h3>Student Starter</h3>
+        <p>Weekly Wash & Fold up to 5kg.</p>
+        <div class="price">BWP 60 / week</div>
+      </article>
+      <article class="card">
+        <h3>Family Pack</h3>
+        <p>Wash & Fold up to 15kg + ironing 5 items.</p>
+        <div class="price">BWP 220</div>
+      </article>
+      <article class="card">
+        <h3>Express Day</h3>
+        <p>Same-day turnaround (subject to slots).</p>
+        <div class="price">+35% on total</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ (simple collapsibles) -->
+  <section class="section alt">
+    <div class="container">
+      <h2>FAQs</h2>
+      <details>
+        <summary>Do you separate colors?</summary>
+        <p>Yes — we sort by color and fabric; delicates get gentle cycles.</p>
+      </details>
+      <details>
+        <summary>Which areas do you cover?</summary>
+        <p>Greater Gaborone for now. Message us if you’re nearby.</p>
+      </details>
+      <details>
+        <summary>How do I pay?</summary>
+        <p>Cash on delivery by default; ask about digital options if needed.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- CONTACT / BOOK -->
+  <section class="section" id="book">
+    <div class="container" style="display:grid; gap:20px; grid-template-columns: 1fr 1fr;">
+      <div>
+        <h2>Book a pickup</h2>
+        <p class="lead">Tell us your details and preferred time. We’ll confirm shortly.</p>
+      </div>
+      <form>
+        <label>Name
+          <input type="text" placeholder="Your name" required/>
+        </label>
+        <label>Email
+          <input type="email" placeholder="you@example.com" required/>
+        </label>
+        <label>Pickup address
+          <input type="text" placeholder="Area, street, house"/>
+        </label>
+        <label>Notes (optional)
+          <textarea rows="4" placeholder="Fragrance-free, handle delicates, gate code…"></textarea>
+        </label>
+        <a class="btn" href="mailto:sebonisummer@gmail.com?subject=Laundry Pickup Request&body=Hi Malacost,%0D%0A%0D%0AMy name is ...%0D%0AMy address is ...%0D%0APlease pick up my laundry on ...">Request pickup</a>
+
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">© <span id="year"></span> Malacost • Laundry made effortless</div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
